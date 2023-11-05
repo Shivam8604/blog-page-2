@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.clearfix::after,.clearfix::before{
+    content: '';
+    display: table;
+
+}
+.clearfix::after{
+    clear: both;
+}
+.header{
+    background-color: #222946;
+    height: 110;
+    line-height: 110px;
+}
+.brand img{
+    width: 150px;
+    float: left;
+    vertical-align: middle;
+    padding-top: auto;
+}
+
+.nav{
+    float: right;
+}
+.nav a{
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+article img{
+    width: 100%;
+}
+.col-3 img{
+    height: 225px;
+}
+.section{
+    padding: 60px 0;
+    background-color: #e9ecfc;
+}
+.col{
+    float: left;
+    width: 30%;
+    margin: 0 1.5%;
+
+}
+.clearfix::after,.clearfix::before{
+    content: '';
+    display: table;
+}
+
+
